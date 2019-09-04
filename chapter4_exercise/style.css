@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+header{
+	margin:20px 0px;
+}
+
+header h1{
+	text-align:center;
+}
+
+
+.menu{
+	text-align:center;
+}
+
+
+.menu-item{
+	display:inline;
+	margin:15px 20px;
+}
+
+
+/*カラーボックス*/
+
+.color{
+	width:800px;
+	height:600px;
+	margin:50px auto;
+}
+
+
+.color-box-top{
+	width:200px;
+	height:200px;
+	float:left;
+}
+
+.color-box-md{
+	width:200px;
+	height:200px;
+	float:left;
+}
+
+.color-box-btm{
+	width:200px;
+	height:200px;
+	float:left;
+}
+
+
+/*カラーボックス1段目の色　左から*/
+
+
+.e6ffe9{
+ background-color:#e6ffe9;
+}
+.cdffd3{
+background-color:#cdffd3;
+}
+.aeffbd{
+background-color:#aeffbd;
+}
+.a-93ffab{
+background-color:#93ffab;
+}
+
+/*カラーボックス2段目の色　左から*/
+
+.f3ffd8{
+background-color:#f3ffd8;
+}
+.edffbe{
+background-color:#edffbe;
+}
+.e9ffa5{
+background-color:#e9ffa5;
+}
+.e4ff8d{
+background-color:#e4ff8d;
+}
+
+/*カラーボックス3段目の色　左から*/
+
+.d9e5ff{
+background-color:#d9e5ff;
+}
+.bad3ff{
+background-color:#bad3ff;
+}
+.a4c6ff{
+background-color:#a4c6ff;
+}
+.a-8eb8ff{
+background-color:#8eb8ff;
+}
+
+
+footer{
+	width:100%;
+	height:120px;
+	background-color:gray;
+
+}
+
+.copyright{
+	color:white;
+	text-align:center;
+	padding:50px 0px;
+}
